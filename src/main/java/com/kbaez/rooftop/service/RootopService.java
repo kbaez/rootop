@@ -13,7 +13,7 @@ public interface RootopService {
 
 	BlocksResponse getBlocks(String token);
 
-	CheckBlockResponse checkBlocks(String token, BlocksRequest request);
+	boolean checkBlocks(String token, BlocksRequest request);
 
 	CheckResponse check(String token, BlocksRequest request);
 }

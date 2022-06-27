@@ -15,6 +15,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @EqualsAndHashCode
 public class CheckResponse {
-	@JsonProperty("data")
-	private String[] data;
+	@JsonProperty("encoded")
+	private String encoded;
 }

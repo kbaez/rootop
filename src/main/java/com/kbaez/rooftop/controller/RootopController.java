@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.kbaez.rooftop.dto.BlocksResponse;
 import com.kbaez.rooftop.dto.CheckBlockResponse;
+import com.kbaez.rooftop.dto.CheckResponse;
 import com.kbaez.rooftop.dto.TokenResponse;
 import com.kbaez.rooftop.dto.request.BlocksRequest;
 import com.kbaez.rooftop.service.RootopService;
