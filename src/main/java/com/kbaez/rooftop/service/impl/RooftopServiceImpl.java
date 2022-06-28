@@ -17,7 +17,7 @@ public class RooftopServiceImpl implements RooftopService {
 	private String URI_TOKEN = "https://rooftop-career-switch.herokuapp.com/token?email=";
 	private String URI_BLOCKS = "https://rooftop-career-switch.herokuapp.com/blocks?token=";
 	private String URI_CHECK = "https://rooftop-career-switch.herokuapp.com/check?token=";
-	
+
 	private RestTemplate restTemplate;
 	
 	@Autowired

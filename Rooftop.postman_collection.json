@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "91398b25-85ed-41ed-9030-0ab0377bc3f4",
+		"name": "Rooftop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/token/mail@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"token",
+						"mail@gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Blocks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/blocks/e9371ae9-fde2-4c85-ab40-6cef5391586d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"blocks",
+						"e9371ae9-fde2-4c85-ab40-6cef5391586d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Check",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blocks\": [\r\n        \"F0gUU2TQPe9fg023U1vPFcwna7IQQyr362RNenYOa2ReTty1aoIh1mYHXB2jGkW825VBEQl2Xkr06AGiQguJbMysx2pWDcVtSdE8\",\r\n        \"KokzhmizqlWCXocJO1eXAuMW9JYx0Ba0HSW4TKnKtzI1chHoYQVXAKrF8go87g2c1CU1jjiRLiAi2hQs7IBn7huLokLKqFpZvFS4\",\r\n        \"SjkZvFcLV77eOWiuL4zkyJsdjgRGAu6dyyrVBkcmISKv0YJXWmQiJNnEzKzIcWnkW5yaKiCJ0SenSrYPuRQY2TE7Y6p5KpNugIBk\",\r\n        \"yJUg341qdmeEFuZqQCEFjfaM0zSVCt5mEliIdpjY0mBaiqqbojjy8J9BKiG9cPBFNfe8fRfttBemXnCmj4wXbj8Of04dGNwd5xER\",\r\n        \"Wzsb03mUqttlQaywXiAL5v7ouRH963Ctq42AxExB7TN4DCQb1z8VzZBHOJJPR82RB3Hu04fMu12gYIrQ6jCLjQAhK2QsrOl4ONsD\",\r\n        \"Zc8CzGBAFX1Gi24tCXipDRIFR0HtDc9KwxV2Pezwz2dHiZmqNbwNCPHDoY8CUUUhsG7JBOGru1UvkYNJATOs4JozuSi6BzVT0MdN\",\r\n        \"UMd39X88TsokdFbHymURR2wm8nnkMqHVT17N7PrnLE2zo9ofRXYzF5xtiruD1cTVdRZsIYSw7QKoH8iq5PncoROjUbS9TFgQqZKC\",\r\n        \"Nc3FGEQNHoEBYakpuw91DiWdnIhUvC3OiokkU2eoprarpoLnkp4aEGaz6jCBUl2ql4DrYTqJ2H8HSoU8bMTFJtMxovJIl5t95CIQ\",\r\n        \"xJzqcjGFNR8sUspOzw7KMOgmidaZ1oqgBDKl6HwbzukCKHj1cJmxcCuDexTZQhozGJiR7W1ZM1tE6tbFXzSKzabYjpv2BFz0vm1q\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/check/e9371ae9-fde2-4c85-ab40-6cef5391586d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"check",
+						"e9371ae9-fde2-4c85-ab40-6cef5391586d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
