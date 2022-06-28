@@ -21,7 +21,7 @@ Todos los endpoints y ejemplos de request estan en esta coleccion postman:
 
 ### Local
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/15ce7eb025604c93d2e1)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/c232b9bb3836b87fce21)
 
 ## Uso de la API
 
