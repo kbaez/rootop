@@ -7,7 +7,7 @@ import com.kbaez.rooftop.dto.TokenResponse;
 import com.kbaez.rooftop.dto.request.BlocksRequest;
 import com.kbaez.rooftop.dto.request.CheckRequest;
 
-public interface RootopService {
+public interface RooftopService {
 	
 	TokenResponse getToken(String mail);
 
